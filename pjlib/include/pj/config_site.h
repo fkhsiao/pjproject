@@ -3,3 +3,4 @@
 #   define PJ_HAS_IFADDRS_H             0
 #	define PJMEDIA_HAS_SPEEX_AEC		0
 #	define PJMEDIA_HAS_SPEEX_CODEC		0
+#   define PJ_HAS_SSL_SOCK              1
