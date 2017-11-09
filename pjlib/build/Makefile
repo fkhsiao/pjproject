@@ -40,7 +40,7 @@ export PJLIB_OBJS += $(OS_OBJS) $(M_OBJS) $(CC_OBJS) $(HOST_OBJS) \
 	ssl_sock_common.o ssl_sock_ossl.o ssl_sock_gtls.o ssl_sock_dump.o \
 	string.o timer_slnk.o types.o
 #### End Add
->>>>>>> 4064f262... APPS-308: Add timer_android to Makefile
+>>>>>>> a961a9a0... APPS-308: Remove timer.o from Makefile.
 
 export PJLIB_CFLAGS += $(_CFLAGS)
 export PJLIB_CXXFLAGS += $(_CXXFLAGS)
