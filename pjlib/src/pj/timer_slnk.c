@@ -7,7 +7,7 @@
 #include <pj/lock.h>
 #include <pj/log.h>
 
-#if defined(PJLIB_USE_ANDROID_TIMING) && PJLIB_USE_ANDROID_TIMING != 0
+#if defined(PJLIB_USE_SLNK_TIMING) && PJLIB_USE_SLNK_TIMING != 0
 
 #define HEAP_PARENT(X)	(X == 0 ? 0 : (((X) - 1) / 2))
 #define HEAP_LEFT(X)	(((X)+(X))+1)
@@ -618,6 +618,6 @@ PJ_DEF(pj_status_t) pj_android_timer_fire(int entryId) {
 	return PJ_SUCCESS;
 }
 
-#endif // defined(PJLIB_USE_ANDROID_TIMING) && PJLIB_USE_ANDROID_TIMING != 0
+#endif // defined(PJLIB_USE_SLNK_TIMING) && PJLIB_USE_SLNK_TIMING != 0
 
 
